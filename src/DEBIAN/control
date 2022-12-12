@@ -1,0 +1,10 @@
+Package: autosign
+Name: AutoSign
+Depends: ldid, sed, file, mawk | gawk, firmware (>= 15.0)
+Version: 1.0.2
+Architecture: iphoneos-arm
+Description: Automatically signs binaries when installed with dpkg/apt. In Sileo, packages may appear as they are stuck at Queued, but you should wait, as AutoSign is processing the deb.
+Maintainer: Nebula <me@itsnebula.net>
+Author: Nebula <me@itsnebula.net>, guacaplushy, woofy <admin@kristen.lc>
+Section: Utilities
+Icon: https://cdn.discordapp.com/attachments/1028398976640229380/1051537598046281859/Frame_19.png

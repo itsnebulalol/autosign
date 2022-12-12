@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+mv /usr/bin/dpkg /usr/bin/dpkg.real
+cp /usr/bin/dpkg.fake /usr/bin/dpkg

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+for i in "$@"; do
+    if [[ $i == *.deb ]]; then
+        printf '%s\n' "Signing $i"
+
+        /usr/bin/resign_deb.sh $i
+    fi
+done
+
+/usr/bin/dpkg.real "$@"
+exit $?

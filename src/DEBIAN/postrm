@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+mv /usr/bin/dpkg.real /usr/bin/dpkg
